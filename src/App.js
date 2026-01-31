@@ -1,7 +1,15 @@
 function App() {
 	return (
 		<div className="container">
-			<p>Put stuff here.</p>
+			<MyComponent />
+		</div>
+	);
+}
+
+function MyComponent() {
+	return (
+		<div>
+			<p>MyComponent</p>
 		</div>
 	);
 }
